@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <style>
+		  body{
+		  background:skyblue;
+		  }
+		  h1{
+		  text-align:center
+		  }
+		  </style>
+	</head>
+	<body>
+	<h1>javasricpt</h1>
+		<b>addition:</b>
+		<i>a+b+c=</i>
+	    <script>
+		    confirm("Find Addition:");
+			var a =parseInt(prompt("ender the frist number a="));
+			var b =parseInt(prompt("ender the second number b="));
+			var c =parseInt(prompt("ender the thrid number c="));
+			var d =a+b+c;
+			document.write(d);
+			document.write("<br>");
+		</script>
+	    <b>subaraction:</b>
+		<i>a-b=</i>
+	    <script>
+		    confirm("Calculate Subtraction");
+			var a=prompt("ender the first number a=");
+			var b=prompt("ender the second number b=");
+			var d=a-b;
+			document.write(d);
+			document.write("<br>");
+		</script>
+		<b>multiplication:</b>
+		<i>a*b=</i>
+	    <script>
+		    confirm("Calculate Multiplication");
+			var a=prompt("ender the first number");
+			var b=prompt("ender the second number");
+			var d=a*b;
+			document.write(d);
+			document.write("<br>");
+		</script>
+	    <b>division:</b>
+		<i>a/b=</i>
+	    <script>
+			confirm("Calculate Division");
+			var a=prompt("ender the first number");
+			var b=prompt("ender the second number");
+			var d=a/b;
+			document.write(d);
+			document.write("<br>");
+		</script>
+		<b>circle:</b>
+		<i>area=</i>
+	    <script>
+		    confirm("calculate Area ofCircle");
+			var r=prompt("ender the radius of the circle r=");
+			var area =22/7*r**2;
+			document.write(area);
+			document.write("<br>");
+		</script>
+		<b>triangle:</b>
+		<i>1/2bh=</i>
+	    <script>
+			confirm("calculate Area of  Triangle");
+			var b=prompt("ender the base of the triangle b=");
+			var h=prompt("ender the highet of the triangle h=");
+			var area=1/2*b*h;
+			document.write(area);
+			document.write("<br>");
+		</script>
+	    <b>simple interest:</b>
+		<i>sI=</i>
+	    <script>
+		   confirm("Calculating Simple Interest");
+			var p=prompt("ender the principle amount p=");
+			var r=prompt("ender the rate of interest(per annum) r=");
+			var t=prompt("ender the time(in year) t=");
+			var si=p*r*t/100;
+			document.write(si);
+			document.write("<br>");
+		</script>
+		<b>square:</b>
+		<i>a**2=</i>
+	    <script>
+		    confirm("calculating Square");
+			var a=prompt("ender the side length a=");
+			var area=a**2;
+			document.write(area);
+			document.write("<br>");
+		</script>
+		<b>cube:</b>
+		<i>6a**2=</i>
+	    <script>
+			confirm("calculating Cube");
+			var a=prompt("ender the side length a=");
+			var area=6*a**2;
+			document.write(area);
+			document.write("<br>");
+		</script>
+		<b>calculate total and average:</b>
+		<i>total,average=</i>
+	    <script>
+			confirm("calculate total and average");
+			var a=parseInt(prompt("ender the frist number a="));
+			var b=parseInt(prompt("ender the second number b="));
+			var c=parseInt(prompt("ender the third number c="));
+			var t=a+b+c;
+			var avg=t/3;
+			document.write(t,",");
+			document.write(avg);
+			document.write("<br>");
+		</script>
+		<b>prime(true) or not(flase):</b>
+		<script>
+			confirm("Check number is prime or not");
+			var a=parseInt(prompt("ender the number(prime or not)"));
+			primen=true;
+			for(var i=2;i<a;i++){
+			 if(a%i==0){
+			 primen=false;
+			 break;
+			 }}
+			 if(primen==true&&a>0&&a!==1){
+			 document.write("This is prime number");
+			 document.write("<br>");
+			 }
+			 else{
+			  document.write("This is not prime");
+			  document.write("<br>");
+			 }
+		</script>
+		<b>larger number:</b>
+		<script>
+			confirm("larger number");
+			var a=prompt("ender the frist number a=");
+			var b=prompt("ender the second number b=");
+			if (a>b){
+			 document.write("number a is larger number"+a);
+			 document.write("<br>");
+			}
+			else if (b>a){
+			 document.write("number b is larger number"+b);
+			 document.write("<br>");
+			}
+			else{
+			document.write("equal");
+			document.write("<br>");
+			}
+		</script>
+		<b>positive(true) or not(flase):</b>
+		<script>
+			confirm("check number is positive or not");
+			var a=prompt("ender the number");
+			var b=0;
+			document.write(a>=b);
+			document.write("<br>");
+		</script>
+		<b>greater than 10:</b>
+		<script>
+			confirm("check number is greater than 10");
+			var a=prompt("ender the number");
+			var d=a>10;
+			document.write(d);
+			document.write("<br>");
+		</script>
+		<b>even(true) or odd(flase):</b>
+		<script>
+			confirm("Number even or odd");
+			var n=prompt("ender the number");
+			var d=n%2;
+			document.write(d==0);
+			document.write("<br>");
+		</script>
+		<b>number is divisible by 5:</b>
+		<script>
+			confirm("check whether number is divisible by 5");
+			var s=prompt("ender the number");
+			var d=s%5;
+			document.write(d==0);
+			document.write("<br>");
+		</script>
+	    <b>number revers order:</b>
+		<script>
+			var n=prompt("ender the number");
+		    while(n!==0){
+			 var b=n%10;
+			 var n=parseInt(n/10);
+			 document.write(b);
+			}/*note la(a=0,n=x,
+			b=n%10;
+			n=parseInt(n/10);
+			a=0*10+b;
+			)*/
+		</script>
+	</body>
+</html>
